@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.home-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  height: 70vh;
+  width: 30vw;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.heading {
+  color: #a35200;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.para {
+  color: #334155;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #f9d423;
+  font-size: 12px;
+  color: #a35200;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.count {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
